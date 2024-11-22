@@ -12,50 +12,47 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
-	<div class="container">
-		<h1>Accessible Portfolio</h1>
-		<nav>
-			<ul>
-				<li>
-					<a href="#">link1</a>
-				</li>
-				<li>
-					<a href="#">link2</a>
-				</li>
-				<li>
-					<a href="#">link3</a>
-				</li>
-				<li>
-					<a href="#">link2</a>
-				</li>
-			</ul>
-		</nav>
 
+	    <!-- Heading -->
+    <h1 role="heading">John Doe's Portfolio</h1>
 
-		<img src="https://kxadmin.metroshoes.net/blog_image/shutterstock_661156006.jpg"
-		alt="Blog Image" width="600" height="400">
-		<ul>
-			<li>List1</li>
-			<li>List2</li>
-			<li>List3</li>
-			<li>List4</li>
-		</ul>
-		<p>Tell me a stereotype and I’ll show you how to break them." Revolution they
-			call it, but we would just like to keep it as our need to simplify stylish.
-			Oxfords were too formal, Derby joined them too and Brogues, well they 
-			were just too dressy for a weekday date night. Moccasins stepped in to 
-			save the day, and we enhanced the look further like any fashion monger
-			would do. We didn’t make our place in a day but we made it strong, 
-			slowly and eventually. We emerged from Norway, rolled our way across 
-			Europe before becoming the American classic, and here we are—breaking 
-			the stereotypes in India. On one day we redefine formal in an award-function
-			, on another we dress with a pair of shorts for a beach shack date; 
-			we dress down for the evening and dress up for the brunch; we are 
-			preppy but also punk, and so we fit everywhere. Thus, leather loafers 
-			for men occupy a safe space as the go-to option that sits in every fine
-			wardrobe.
-		</p>
-	</div>
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image Section -->
+    <section>
+        <img src="https://kxadmin.metroshoes.net/blog_image/shutterstock_661156006.jpg" 
+		width="300"	alt="A professional portrait of John Doe" role="img">
+    </section>
+
+    <!-- Brief Description -->
+    <section id="about">
+        <p>
+            Hello! I'm John Doe, a web developer with a passion for building accessible and user-friendly websites. My goal is to create web applications that are inclusive for everyone.
+        </p>
+    </section>
+
+    <!-- List of Projects -->
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Personal Blog</li>
+            <li role="listitem">Project 2: E-commerce Website</li>
+            <li role="listitem">Project 3: Portfolio Website</li>
+        </ul>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact">
+        <h2 role="heading">Contact</h2>
+        <p>Email: johndoe@example.com</p>
+    </section>
 
 </body>
 
